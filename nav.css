@@ -1,0 +1,210 @@
+                                        /* nvbr strt here */
+:root{
+    --body-color: #fff;
+    --nav-color: #fff;
+    --bg-color: #fff;
+    --post-color: #8FBC8F;
+    --spn-color: #000;
+    --shdow-color:rgb(189, 185, 185);
+    --i-color:#8FBC8F;
+}
+.drk-theme{
+    --body-color: #18191A;
+    --nav-color: #18191A;
+    --bg-color: #18191A;
+    --post-color: #8FBC8F;
+    --spn-color: #fff;
+    --shdow-color:#18191A;
+    --i-color:#8FBC8F;
+
+}                                       
+nav{
+    grid-area: nv;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background: var(--nav-color);
+}
+
+                                        /* left nv strt here */
+.left-nav{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+i.fa-solid.fa-hashtag {
+    font-size: x-large;
+    color: darkseagreen;
+}
+
+.srcbx{
+    position: relative;
+    height: 30px;
+}
+.srcbx input{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+.srcbx input:focus{
+    outline: none;
+}
+.srcbx i{
+    position: absolute;
+    color: darkseagreen;
+}
+#left{
+    top: 6.5px;
+    left: 8px;
+    font-size: large;
+}
+
+                                            /* middlenv strt here */
+.middle-nav {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    flex-basis: 34%;
+    padding-right: 3px;
+    /* width: 50%; */
+    /* padding-right: 140px; */
+}
+.middle-nav i{
+    font-size: large;
+    color: darkseagreen;
+}
+
+                                            /* r8 nv strt here */
+.r8-nav {
+    display: flex;
+    margin-left: auto;
+    align-content: center;
+    justify-content:end;
+    align-items: center;
+    gap: 15px;
+    margin-right: 5px;
+}
+.r8-nav i{
+    font-size: large;
+    color: darkseagreen;
+}
+.r8-nav img{
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+                                                   /* settings menu */
+.settings-menu{
+    position: absolute;
+    width: 90%;
+    max-width: 250px;
+    height: 350px;
+    background: var(--bg-color);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    top: 55px;
+    right: 2px;
+    max-height: 0;
+    transition:  max-height 0.3s;
+}
+.settings-menu-height{
+    max-height: 360px;
+}
+.settingsmenuinner{
+       /* padding: 20px; */
+       padding-left: 20px;
+       padding-right: 20px;
+       padding-top: 8px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       height: 100%;
+} 
+.settingsmenuinner a:hover{
+    background: rgb(158, 158, 158) ;
+}
+.settingsmenuinner a{
+    text-decoration: none;
+    color: var(--spn-color);
+}    
+.userprofilestm{
+    display: flex;
+    align-items: center;
+    margin:10px 0;
+}
+.userprofilestm .upstm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 5px;
+}
+.userprofilest{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.userprofilest .upest{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+.userprofilest .upest .pp{
+    font-size: x-small;
+}
+                                            /* drk button */
+#drkbtn{
+   position: absolute;
+   top: 30px;
+   right: 20px;
+   background: #ccc;
+   width: 45px;
+   border-radius: 15px;
+   padding: 2px 3px;
+   cursor: pointer;
+   display: flex; 
+   transition:  padding-left 0.5s, background 0.5s ;
+}
+#drkbtn span{
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+#drkbtn.drkbtn-on{
+    padding-left: 23px;
+    background: #000;
+
+}                                           
+
+                                               /* nvbr ends here */
+
+@media screen and (max-width: 400px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        width:395px;
+    }
+    nav .middle-nav{
+        display: none;
+    }
+    .left-nav{
+        flex-basis: 35%;
+    }
+    .r8-nav{
+        flex-basis: 63%;
+    }
+}                                              
