@@ -36,6 +36,9 @@ body{
     width: 160px;
     height: 36px;
 }
+.editpt span{
+    font-size: small;
+}
 .editpt i{
     /* font-size: 12px; */
 }
@@ -128,7 +131,9 @@ body{
     text-decoration: none;
     border-radius: 6px;
 }
-
+.iiie span{
+    font-size: small;
+}
 .iiie i{
     color: white;
     padding: 6px 12px;
