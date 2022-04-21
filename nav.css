@@ -188,7 +188,9 @@ i.fa-solid.fa-hashtag {
     background: #000;
 
 }                                           
-
+*{
+    font-family: 'Work Sans', sans-serif;
+}
                                                /* nvbr ends here */
 
 @media screen and (max-width: 400px){

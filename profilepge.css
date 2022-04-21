@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
-
 }
 .continer{
     width: 100%;
@@ -602,7 +601,9 @@ footer span{
     color: #828282;
 }
 
-
+*{
+    font-family: 'Work Sans', sans-serif;
+}
 
 /* media query */
 
