@@ -193,7 +193,7 @@ i.fa-solid.fa-hashtag {
 }
                                                /* nvbr ends here */
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     nav{
         display: flex;
         justify-content: space-between;
