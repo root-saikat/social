@@ -398,7 +398,7 @@ i.fa-solid.fa-hashtag {
 .mindposting{
     display: flex;
     flex-direction: column;
-    margin: 0 80px;
+    margin: 0 44px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow:0 1px var(--shdow-color);
@@ -439,7 +439,7 @@ i.fa-solid.fa-hashtag {
 
 @media screen and (max-width: 481px){
     .mindposting {
-        padding: 0 7%;
+        padding: 0 0;
     }
     .storygl{
         padding: 0 5px;
