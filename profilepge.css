@@ -745,7 +745,6 @@ footer span{
         display: flex;
         justify-content: space-between;
         padding: 0;
-        width:395px;
     }
     nav .middle-nav{
         display: none;
