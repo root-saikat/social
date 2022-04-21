@@ -713,7 +713,7 @@ footer span{
     
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
     .cover{
         width: 100%;
     }
@@ -737,6 +737,24 @@ footer span{
         right: 4px;
         bottom: 16px;
         width: 130px;
+    }
+    .hr{
+        width: 94%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        width:395px;
+    }
+    nav .middle-nav{
+        display: none;
+    }
+    .left-nav{
+        flex-basis: 35%;
+    }
+    .r8-nav{
+        flex-basis: 63%;
     }
 
 }
