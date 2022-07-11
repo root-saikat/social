@@ -737,4 +737,8 @@ footer ul{
   .list {
     gap: 21px;
    }
+   .coverphoto {
+    width: 1400px;
+   }
+   
 }
