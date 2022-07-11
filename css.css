@@ -731,3 +731,10 @@ footer ul{
     display: flex;
     flex-wrap: wrap;
 }
+
+
+@media screen and (min-width: 1700px){
+  .list {
+    gap: 21px;
+   }
+}
